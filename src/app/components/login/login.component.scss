@@ -1,0 +1,67 @@
+.content-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+mat-card {
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  background-color:rgba(153, 97, 143, 0.7);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 15%;
+  margin-top: 140px;
+  box-shadow: 4px 4px 4px 4px #3c1e42;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 30%;
+  height:30px;
+ 
+  
+}
+.btn-class{
+  background-color: #4e0633;
+  color:white;
+  box-shadow: 2px 2px 2px 2px #220216;
+}
+.btn-class:hover{
+  background-color: #db3a9d;
+}
+
+.sign-up-link {
+  text-decoration: underline;
+  color:black;
+  font-size: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.mat-error {
+  font-size: 20px;
+  color: #f44336;
+  
+}
+
+
+  

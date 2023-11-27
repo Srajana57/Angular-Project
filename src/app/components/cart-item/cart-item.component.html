@@ -1,0 +1,21 @@
+<!-- cart-item.component.html -->
+
+<div class="cart-item">
+    <div class="item">
+        <div class="item-image-box">
+            <img [src]="item.imagePath" alt="{{ item.name }}" class="item-image">
+        </div>
+
+        <div class="item-description-box">
+            <div class="item-description">
+                <h3>{{ item.name }}</h3>
+                <p>Color: {{item.color}}</p>
+                <p>Price: {{item.price}}</p>
+                <p>Quantity: {{ item.quantity }}</p>
+                <p>{{ item.desc }}</p>
+                <p>Delivered By: {{item.delivery}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+

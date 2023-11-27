@@ -1,0 +1,65 @@
+
+
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.form-container{
+    display:block;
+    max-width: 300px;
+    margin: auto;
+    background:rgba(218, 26, 83, 0.293);
+    padding: 48px;
+    border-radius: 16px;
+
+    
+}
+
+.form-container mat-form-field{
+ width:100%;
+ 
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    
+}
+.margin-top{
+    margin-top: 16px;
+
+}
+.text-center{
+    text-align: center;
+}
+
+.content-body{
+    min-height: 100%;
+    padding: 0px;
+    background:rgba(218, 26, 83, 0.293);
+    display: block;
+    width:100%;
+    overflow-y: hidden;
+    
+    
+    background-image: url(https://images.pexels.com/photos/302588/pexels-photo-302588.jpeg?cs=srgb&dl=pexels-theglory-302588.jpg&fm=jpg);
+    background-size: cover;
+
+    
+   
+}
+mat-card {
+    max-width: 600px;
+    margin: 10%;
+    text-align: center;
+    max-height: 700px;
+    position: relative;
+    
+    margin-top: 5%;
+    margin-left:25%;
+    background: rgba(238, 85, 195, 0.801);
+    
+    
+
+  }

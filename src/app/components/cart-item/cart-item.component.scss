@@ -1,0 +1,41 @@
+/* cart-item.component.css */
+
+.cart-item {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px; /* Add padding as needed */
+}
+
+.item {
+    display: flex;
+    width: 100%;
+}
+
+.item-image-box {
+    flex: 1;
+    padding-right: 20px; /* Add spacing between image and description */
+}
+
+.item-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.item-description-box {
+    flex: 1;
+}
+
+.item-description{
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.item-description h3{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+

@@ -1,0 +1,70 @@
+<app-header></app-header>
+
+<div class="product-container">
+
+    <div class="product-info">
+      <div class="product-image-container">
+
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="product-image" [src]="product.imagePath" alt="{{ product.name }}"> 
+              </div>
+              <div class="flip-card-back">
+                <img class="product-image" [src]="product.imagePath2" alt="{{ product.name }}">    
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="product-description">
+            <div class="product-details">
+                <h2>Name: {{ product.name }}</h2>
+            </div>
+          <h3>Description</h3>
+          <p>{{ product.desc }}</p>
+        
+          <div class="product-info-item">
+            <p>Color: {{ product.color }}</p>
+            <p>Price: &#8377;{{ product.price }}</p>
+            <div class="product-rating">
+              <p>Rating</p>
+              <div class="star-rating" [class.read-only]="true">
+                <span *ngFor="let star of getStarsArray()" class="star" [class.full]="star <= product?.rating">
+                  <i class="fas fa-star"></i>
+                </span>
+              </div>
+            </div>
+            
+            <button class="add-to-cart-button" (click)="addToCart()">+</button>
+            
+            <button class="remove-from-cart-button" (click)="removeFromCart()">-</button>
+        </div>
+        <div class="comment-container">
+          <div class="comment-input-box">
+            <h3>Add a Comment</h3>
+            <div class="comment-input-container">
+              <input type="text" [(ngModel)]="newName" placeholder="Your Name"><br><br>
+              <textarea [(ngModel)]="newComment" placeholder="Type your comment here"></textarea>
+              <button class="comment-button" (click)="addComment()">Submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="comment-container">
+          <div class="comment-display-box">
+            <h3>Comments</h3>
+            <div class="comments">
+              <ul>
+                <li *ngFor="let comment of comments">
+                  <p class="comment-name">{{ comment.name }}</p>
+                  <p class="comment-text">{{ comment.text }}</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      <button class="back-button" (click)="goBack()">Go Back</button>
+  </div>
+</div>
+</div>
+<app-footer></app-footer>

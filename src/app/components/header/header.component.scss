@@ -1,0 +1,74 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .1);
+    height: 40px;
+  
+    @media screen and (max-width: 768px) {
+      padding: 2rem 5%;
+    }
+  
+    .logo {
+      font-size: 3rem;
+      color: #c4447f;
+      font-weight: bolder;
+      text-decoration: none;
+      font-family: cursive;
+      margin-left: -8%;
+  
+      @media screen and (max-width: 768px) {
+        font-size: 2rem;
+        margin-left: 0;
+      }
+    }
+  
+    .navbar {
+      a {
+        font-size: 1.3rem;
+        padding: 0 1.9rem;
+        color: #d3288c;
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        a .logout{
+          position: relative;
+          top:-10px;
+          
+        }
+        @media screen and (max-width: 768px) {
+          font-size: 1rem;
+        }
+      }
+  
+      a:hover {
+        color: var(--pink);
+      }
+    }
+  
+    .material-icons {
+      color: rgb(211, 58, 129);
+      font-size: 26px;
+      padding-left: 20px;
+    }
+  
+    .cart-count {
+      background-color: #e478a1;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 50%;
+      font-size: 12px;
+      position: relative;
+      top: -20px;
+      left: -12px;
+    }
+
+
+  }
+  

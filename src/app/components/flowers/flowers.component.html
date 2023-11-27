@@ -1,0 +1,42 @@
+<app-header></app-header>
+<div class="container">
+  <h3>PRODUCTS</h3>
+  <div class="filter-container">
+    <div class="search-container">
+      <input type="text" [(ngModel)]="searchTerm" placeholder="Search by name...">
+      <button (click)="searchProducts()">Search</button>
+    </div>
+    <div class="sort-container">
+      <button (click)="sortByName()">Sort by Name</button>
+      <button (click)="sortByPrice()">Sort by Price</button>
+    </div>
+    <div class="color-filter">
+      <span>Filter by Color:</span>
+      <select [(ngModel)]="selectedColor" (change)="filterProducts()">
+        <option value="">All</option>
+        <option *ngFor="let color of colors" [value]="color"> {{ color }}</option>
+      </select>
+    </div>
+    <div class="delivery-filter">
+      <span>Filter by Delivery:</span>
+      <select [(ngModel)]="selectedDelivery" (change)="filterProducts()">
+        <option value="">All</option>
+        <option *ngFor="let delivery of deliveries" [value]="delivery"> {{ delivery }}</option>
+      </select>
+    </div>
+  </div>
+
+  <mat-grid-list cols="3" gutterSize="5px">
+    <mat-grid-tile *ngFor="let product of filteredProducts">
+      <mat-card class="example-card" (click)="redirectToDescription(product.id)">
+        <img mat-card-image [src]="product.imagePath">
+        <mat-card-content class="pname">{{product.name}}</mat-card-content>
+        <mat-card-content class="pname">&#8377; {{product.price}}</mat-card-content>
+        <button class="add-to-cart-button" (click)="addToCart(product)" *ngIf="!selectedColor && !selectedDelivery">Add to Cart</button>
+        
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+</div>
+<app-footer></app-footer>

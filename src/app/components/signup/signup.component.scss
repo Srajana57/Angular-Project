@@ -1,0 +1,61 @@
+.signupform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://images.pexels.com/photos/302588/pexels-photo-302588.jpeg?cs=srgb&dl=pexels-theglory-302588.jpg&fm=jpg'); 
+  background-size: cover; 
+  background-position: center;
+}
+
+mat-card {
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 20px;
+  background-color:rgba(153, 97, 143, 0.7);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 15%;
+  margin-top: 140px;
+  box-shadow: 4px 4px 4px 4px #3c1e42;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+
+button.btn {
+  background-color: #4e0633;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px #220216;
+}
+
+button.btn:hover {
+  background-color: #db3a9d;
+}
+
+.mat-error {
+  font-size: 22px;
+  color: #f0382b;
+}
+
+
+

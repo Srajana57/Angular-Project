@@ -1,0 +1,33 @@
+<div class="signupform">
+  <mat-card>
+  <h2>Sign Up</h2>
+  <form [formGroup]="signUpForm" (ngSubmit)="submit()">
+      <label>Username</label><br>
+      <mat-form-field class="center">
+          <input matInput placeholder="Username" formControlName="name"/>
+          <mat-error *ngIf="name?.errors?.['required']">Username is required</mat-error>
+      </mat-form-field >
+      <label>Email</label><br>
+      <mat-form-field class="center">
+          <input matInput placeholder="Email" formControlName="email"/>
+          <mat-error *ngIf="email?.errors?.['required']">Username or Email is required</mat-error>
+          <mat-error *ngIf="email?.errors?.['email']">Please enter correct format</mat-error>
+      </mat-form-field >
+      <br>
+      <label>Password</label><br>
+      <mat-form-field class="center">
+          <input matInput placeholder="Password" formControlName="password" type="password"/>
+          <mat-error *ngIf="password?.errors?.['required']">Password should contain atleast one uppercase letter,lowercase letters,numeric character and Special character</mat-error>
+      </mat-form-field>
+      <label>Confirm Password</label><br>
+      <mat-form-field class="center">
+          <input matInput placeholder="Confirm Password" formControlName="confirmPassword" type="password"/>
+          <mat-error *ngIf="confirmPassword?.errors?.['required']">Confirm Password is required</mat-error>
+      </mat-form-field>
+      <mat-error *ngIf="signUpForm.errors?.['passwordDontMatch']">Passwords Should Match</mat-error>
+      <div class="center margin-top">
+        <button class="btn" type="submit" >Sign Up</button>
+      </div>
+  </form>
+</mat-card>
+</div>

@@ -1,0 +1,24 @@
+<div class="content-body">
+  <mat-card>
+    <mat-card-content>
+      
+        <h1>Login</h1>
+        <form #loginForm="ngForm" (ngSubmit)="submit(loginForm)">
+          <mat-form-field>
+            <input matInput placeholder="Email address" name="email" ngModel required email />
+            <mat-error *ngIf="loginForm.controls['email'].hasError('required')">Email is required</mat-error>
+            <mat-error *ngIf="loginForm.controls['email'].hasError('email')">Please enter a valid email format</mat-error>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput placeholder="Password" name="password" type="password" ngModel required />
+            <mat-error *ngIf="loginForm.controls['password'].hasError('required')">Password required</mat-error>
+          </mat-form-field>
+          <div class="center margin-top">
+            <button class="btn-class" type="submit">Login</button>
+          </div>
+          <span class="center margin-top">New to our platform ? <a class="sign-up-link" routerLink="/signup">Signup!</a></span>
+        </form>
+      
+    </mat-card-content>
+  </mat-card>
+</div>

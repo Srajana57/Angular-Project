@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "my-project3-73595": {
+      "hosting": {
+        "my-project3": [
+          "my-project3-73595"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "my-project3-73595"
+  }
+}

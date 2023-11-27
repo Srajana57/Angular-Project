@@ -1,0 +1,11 @@
+<header>
+    <a routerLink="/home" class="logo">House of Blooms</a>
+    <nav class="navbar">
+        <a routerLink="/home">Home</a>
+        <a routerLink="/flowers">Products</a>
+        <a routerLink="/cart">View Cart</a>
+            <span class="material-icons" routerLink="/cart">shopping_cart</span>
+            <span class="cart-count">{{ cartCount }}</span>
+        <a class="logout" (click)="logout()">Logout</a>       
+    </nav>      
+</header>

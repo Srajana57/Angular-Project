@@ -1,0 +1,511 @@
+:root{
+    --pink:#e84393;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+
+}
+
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
+
+}
+
+.heading span{
+    color: var(--pink);
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    margin-left:5%;
+}
+.btn:hover{
+    background: var(--pink);
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #dfaed4;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .1);
+}
+
+ header .logo{
+    font-size:3rem;
+    color: #333;
+    font-weight: bolder;
+ }
+
+header .logo span{
+    color: var(--pink);
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header .navbar a:hover{
+    color: var(--pink);
+}
+
+header .icons a{
+    font-size: 3rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    color: var(--pink);
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+
+.home{
+    
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        background: url(https://img4.goodfon.com/wallpaper/nbig/a/93/rozovye-beautiful-heart-fresh-tiulpany-romantic-gift-liubov.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        z-index: 1;
+        margin-top: 105px; 
+  
+}
+
+.home .content{
+    max-width: 50rem;
+    
+}
+
+.home .content h3{
+    font-size: 100px;
+    color: #f067c2;
+    margin-left: 0%;
+    
+}
+
+.home .content .span{
+    font-size: 65px;
+    color:rgba(74, 102, 55, 0.822);
+    padding: 1rem 0;
+    line-height: 1.5;
+    margin-left: 5%;
+}
+
+.home .content p{
+    font-size: 2rem;
+    color:#bb1d74;
+    padding: 1rem 0;
+    line-height: 1.5;
+    margin-left: 5%;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    pad: 2rem 0;
+    padding-bottom: 3rem;
+
+}
+
+#occassions{
+    margin-top: 30px;
+}
+
+.heading{
+    color:#f13b93;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1 .heading{
+    color:#f13b93;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+mat-grid-tile{
+    background-color: #f7acd0d0;  
+}
+mat-grid-tile img{
+    padding: 15px;
+}
+
+mat-card-title{
+    color:rgb(58, 45, 45)
+}
+div h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+   margin-left: 0;
+    color:#f391d2
+}
+
+
+
+.icons-container .icons img{
+    height: 5rem;
+    margin-right: 2rem;
+}
+
+.icons-container .icons h3{
+    color: #333;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+
+.icons-container .icons span{
+    color: #555;
+    font-size: 1.3rem;
+}
+
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+
+.products .box-container .box{
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    border: .1rem solid rgba(0,0,0,.1);
+    position: relative;
+}
+
+.products .box-container .box .discount{
+    position: absolute;
+    top: 1rem; left: 1rem;
+    padding: .7rem 1rem;
+    font-size: 2rem;
+    color: var(--pink);
+    background: rgba(255,51,153,0.5);
+    z-index: 1;
+    border-radius: .5rem;
+}
+
+.products .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-left: 2rem;
+    overflow: hidden;
+}
+
+.products .box-container .box .image img{
+    height: 20rem;
+}
+
+.products .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.products .box-container .box .image .icons{
+    position: absolute;
+    bottom: -7rem; left: 0; right: 0;
+    display: flex;
+}
+
+.products .box-container .box:hover .image .icons{
+    bottom: 0;
+}
+
+.products .box-container .box:hover .image .icons a{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    width: 50%;
+    background: var(--pink);
+    color: #fff;
+}
+
+.products .box-container .box:hover .image .icons .cart-btn{
+    border-left: .1rem solid rgba(250, 170, 194, 0.884);
+    border-right: .1rem solid rgba(250, 170, 194, 0.884);
+    width: 100%;
+}
+
+.products .box-container .box:hover .image .icons a:hover{
+    background: #d7a2e2;
+}
+
+.products .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.products .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.products .box-container .box .content .price{
+    font-size: 2.5rem;
+    color: var(--pink);
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+.products .box-container .box .content .price span{
+    font-size: 1.5rem;
+    color: #999;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.review .box-container .box{
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+    border:.1rem solid rgba(0,0,0,.1);
+    
+
+}
+
+
+.review .box-container .box p{
+    color: #999;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    letter-spacing: 2px;
+}
+
+.review .box-container .box .user{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+
+}
+
+.review .box-container .box .user img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.review .box-container .box .user h3{
+    font-size: 2rem;
+    color: #333;
+}
+
+
+.review .box-container .box .user span{
+    font-size: 1.5rem;
+    color: #999;
+}
+
+
+
+
+
+
+@media (max-width:768px){
+    html .fa-bars{
+        display: block;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);;
+    }
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgb(0, 0, 0, .1);
+        display: block;
+    }
+    .home.content h3{
+        font-size: 5rem;
+
+    }
+    .home.content span{
+        font-size: 2.5rem;
+        
+    }
+    .icons-container .icons h3{
+        
+        font-size: 2rem;
+    }
+    
+    
+    .icons-container .icons span{
+        font-size: 1.7rem;
+    }
+}
+
+
+@media (max-width:450px){
+    
+    html{
+        font-size: 50%
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    
+    }
+    @media (max-width: 991px) {
+        html {
+          font-size: 55%;
+        }
+      
+        header {
+          padding: 2rem;
+        }
+      
+        section {
+          padding: 2rem;
+        }
+      
+        .home {
+          background-position: center;
+        }
+      }
+      
+      /* Mobile view */
+      @media (max-width: 768px) {
+        html {
+          font-size: 50%;
+        }
+      
+        header {
+          padding: 2rem;
+        }
+      
+        .home .content h3 {
+          font-size: 5rem;
+        }
+      
+        .home .content span {
+          font-size: 2.5rem;
+        }
+      
+        .icons-container .icons h3 {
+          font-size: 2rem;
+        }
+      
+        .icons-container .icons span {
+          font-size: 1.7rem;
+        }
+      }
+      
+      @media (max-width: 450px) {
+        html {
+          font-size: 45%;
+        }
+      
+        .heading {
+          font-size: 3rem;
+        }
+      
+        
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

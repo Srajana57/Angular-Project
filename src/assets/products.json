@@ -1,0 +1,115 @@
+[
+    {
+        "id":1,
+        "imagePath":"https://images.pexels.com/photos/5722932/pexels-photo-5722932.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "imagePath2":"https://images.pexels.com/photos/5722936/pexels-photo-5722936.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name":"Rose bouquet",
+        "color":"Red",
+        "price":750,
+        "delivery":"Today",
+        "quantity": 0,
+        "rating": 4,
+        "desc":"A red rose is an expression of love. Red roses usually show deep feelings, like love, longing, or desire. Red roses can also be used to show respect, admiration, or devotion. "
+       
+    },
+    {
+        "id":2,
+        "imagePath":"https://images.pexels.com/photos/11655962/pexels-photo-11655962.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "imagePath2":"https://images.pexels.com/photos/17406658/pexels-photo-17406658/free-photo-of-bouquet-of-fresh-white-easter-lilies-and-roses-lying-on-a-white-fabric.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name":"Lily bouquet",
+        "color":"white",
+        "price":1200,
+        "delivery":"Tomorrow",
+        "quantity": 0,
+        "rating": 5,
+        "desc":"Lily is commonly associated with purity, innocence, and spirituality, making them a popular choice for religious ceremonies such as baptisms, confirmations, and funerals and are also used in weddings to symbolize the purity and innocence"
+    },
+    {
+        "id":3,
+        "imagePath":"https://images.pexels.com/photos/7086865/pexels-photo-7086865.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "imagePath2":"https://images.pexels.com/photos/4048680/pexels-photo-4048680.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name":"Dafodil",
+        "color":"yellow",
+        "price":1400,
+        "delivery":"Tomorrow",
+        "quantity": 0,
+        "rating": 4,
+        "desc": "Daffodils symbolize new beginnings, rebirth, and the arrival of spring"
+    },
+    {
+        "id":4,
+        "imagePath":"https://images.pexels.com/photos/4393495/pexels-photo-4393495.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "imagePath2":"https://images.pexels.com/photos/4393496/pexels-photo-4393496.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name":"Orchid",
+        "color":"violet",
+        "price":1600,
+        "delivery":"Today",
+        "quantity": 0,
+        "rating": 4,
+        "desc":"Orchids are a popular flower that symbolizes different things in different cultures. In general, they are known to represent beauty, love, luxury, and strength"
+        
+    },
+    {
+        "id":5,
+        "imagePath":"https://images.pexels.com/photos/4555279/pexels-photo-4555279.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "imagePath2":"https://images.pexels.com/photos/3656105/pexels-photo-3656105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name":"Tulips",
+        "color":"white",
+        "price":2100,
+        "delivery":"Tomorrow",
+        "quantity": 0,
+        "rating": 5,
+        "desc":"White tulips signify forgiveness and purity."
+       
+    },
+    {
+        "id":6,
+        "imagePath":"https://images.pexels.com/photos/4234548/pexels-photo-4234548.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "imagePath2":"https://images.pexels.com/photos/7235676/pexels-photo-7235676.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name":"Rose with lilies",
+        "color":"white and pink",
+        "price":2400,
+        "delivery":"Tomorrow",
+        "quantity": 0,
+        "rating": 3,
+        "desc":"Rose represents love and passion and White lily represents pure, natural beauty."
+    },
+    {
+        "id":7,
+        "imagePath":"https://images.pexels.com/photos/4466585/pexels-photo-4466585.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "imagePath2":"https://images.pexels.com/photos/16180589/pexels-photo-16180589/free-photo-of-colorful-bouquet-of-gerberas.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name":"Gerberas in glass vase",
+        "color":"pink and yellow",
+        "price":2700,
+        "delivery":"Today",
+        "quantity": 0,
+        "rating": 4,
+        "desc": "Beautiful and fresh Gerberas in a glass vase"
+    },
+    {
+        "id":8,
+        "imagePath":"https://images.pexels.com/photos/3579443/pexels-photo-3579443.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "imagePath2":"https://images.pexels.com/photos/3392937/pexels-photo-3392937.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name":"Peony in a glass vase",
+        "color":"pink",
+        "price":2600,
+        "delivery":"Today",
+        "quantity": 0,
+        "rating": 5,
+        "desc":"Wealth,nobility,happy relationship, fortune, and honor "
+       
+    },
+    {
+        "id":9,
+        "imagePath":"https://images.pexels.com/photos/1390433/pexels-photo-1390433.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "imagePath2":"https://images.pexels.com/photos/3823839/pexels-photo-3823839.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name":"Sunflower in a Vase",
+        "color":"Yellow",
+        "price":2300,
+        "delivery":"Today",
+        "quantity": 0,
+        "rating": 4,
+        "desc":"Wealth,nobility,happy relationship, fortune, and honor "
+       
+    }
+]
